@@ -1,0 +1,47 @@
+.circle{
+    position: absolute;
+    top: 0%;
+    margin: auto;
+    background-color: blue;
+    height: 600px;
+    width: 700px;
+    border-radius: 50%;
+
+}
+.parent{
+    position: relative;
+    left: 30%;
+
+}
+.child-1{
+    position: absolute;
+    top: 80px;
+    left: 14%;
+
+}
+.image-style{
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    padding-left: 10%;
+    
+}
+   
+    
+
+.image-style:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.1);
+}
+.child-2{
+    position: absolute;
+    width: 20%;
+    top: 150px;
+    left: 4%;
+    color: rgb(240, 12, 12);
+   
+
+}
